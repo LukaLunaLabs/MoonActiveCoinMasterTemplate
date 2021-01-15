@@ -4771,64 +4771,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 80484864348155656}
-  - component: {fileID: 80484864348155657}
+  - component: {fileID: 658565425576252835}
   m_Layer: 5
-  m_Name: CoinsWonEffect 1
+  m_Name: CoinsWonEffect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &80484864348155656
-RectTransform:
+--- !u!4 &658565425576252835
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 80484864348155655}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalPosition: {x: 0, y: -4.057, z: 1}
   m_LocalScale: {x: 0.1, y: 0.1, z: 1}
   m_Children:
   - {fileID: 80484864347894099}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -4.057}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &80484864348155657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 80484864348155655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 690bd0f1603b8446f98f765b6f9ec961, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Canvases: []
-  m_GameObjects:
-  - m_GameObject: {fileID: 80484864348171557}
-    m_Scale: 1
-    m_Position: 1
-    m_xScalePortrait: 1
-    m_yScalePortrait: 1
-    m_zScalePortrait: 1
-    m_xScaleLandscape: 0.4
-    m_yScaleLandscape: 0.4
-    m_zScaleLandscape: 0.4
-    m_xPositionPortrait: 0
-    m_yPositionPortrait: 32
-    m_zPositionPortrait: 0
-    m_xPositionLandscape: 0
-    m_yPositionLandscape: 35
-    m_zPositionLandscape: 0
 --- !u!1 &80484864348171557
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,7 +4825,7 @@ Transform:
   m_Children:
   - {fileID: 80484864911529647}
   - {fileID: 80484863535706406}
-  m_Father: {fileID: 80484864348155656}
+  m_Father: {fileID: 658565425576252835}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &80484864333809895
@@ -8659,7 +8624,7 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 1
+    enabled: 0
     mode: 0
     ratio: 0.5
     lifetime:
