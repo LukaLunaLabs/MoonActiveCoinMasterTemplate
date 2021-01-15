@@ -1,0 +1,193 @@
+{
+    "version": "1.1.1",
+    "packageId": "com.DefaultCompany.GenericMechanismForPlayableAds",
+    "unity": {
+        "scripts": {
+            "excludes": [
+                "**/Editor/",
+                "**/Luna/RuntimeScripts/"
+            ],
+            "useMSBuild": true,
+            "msbuildMac64": "/Library/Frameworks/Mono.framework/Versions/Current/bin/msbuild",
+            "msbuildWin64": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe",
+            "externalSources": [],
+            "externalJSLibraries": [],
+            "scriptingDefines": []
+        },
+        "assets": {
+            "export": [
+                "all",
+                "scenes",
+                "resources",
+                "prefabs",
+                "scriptableObjects",
+                "streamingAssets"
+            ],
+            "excludes": [
+                "**/Editor/"
+            ],
+            "includes": [
+                "Assets/Graphic Elements/Slot_Icons/",
+                "Assets/Graphic Elements/Slot_Icons/candy_01.png",
+                "Assets/Graphic Elements/Slot_Icons/Candy_01_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/Candy_02.png",
+                "Assets/Graphic Elements/Slot_Icons/Candy_02_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/Candy_03.png",
+                "Assets/Graphic Elements/Slot_Icons/Candy_03_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/Coin.png",
+                "Assets/Graphic Elements/Slot_Icons/Coin_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/goldSack.png",
+                "Assets/Graphic Elements/Slot_Icons/goldSack_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/pigStesl.png",
+                "Assets/Graphic Elements/Slot_Icons/pigStesl_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/potion.png",
+                "Assets/Graphic Elements/Slot_Icons/potion_Blurred.png",
+                "Assets/Graphic Elements/Slot_Icons/spin.png",
+                "Assets/Graphic Elements/Slot_Icons/spin_Blurred.png"
+            ]
+        },
+        "scenes": [
+            "Assets/Scenes/SlotMachine.unity"
+        ],
+        "startupScene": 0,
+        "packages": {
+            "default": {
+                "applicationName": "",
+                "iosLink": "",
+                "androidLink": "",
+                "orientation": "unspecified",
+                "languages": [
+                    "en"
+                ]
+            },
+            "develop": {
+                "email": "",
+                "signature": ""
+            },
+            "ironsource": {
+                "applicationGenre": "",
+                "versionName": "",
+                "apiType": 0,
+                "playableMode": 0,
+                "packageType": 0
+            },
+            "facebook": {
+                "assetID": "",
+                "packageType": 0
+            }
+        },
+        "preloader": {
+            "active": true,
+            "icon": "",
+            "background": ""
+        },
+        "autoInstantiatePrefabs": true,
+        "removeShadows": false,
+        "minify": true,
+        "compressResources": false,
+        "compressType": 0,
+        "eliminateDeadCode": false,
+        "genericCheck": false,
+        "disableAntiAliasing": false,
+        "roots": [
+            "UnityEngine.Physics",
+            "UnityEngine.EventSystems.PointerEventData",
+            "UnityEngine.UI.GraphicRaycaster",
+            "LunaUnity.Objects.Handlers.Base",
+            "UnityEngine.UI.RawImage",
+            "UnityEngine.UI.Image",
+            "UnityEngine.UI.Text",
+            "UnityEngine.CanvasGroup",
+            "Luna.Unity.Playable",
+            "UnityEngine.Time",
+            "UnityEngine.LayerMask",
+            "UnityEngine.SceneManagement.LoadSceneMode",
+            "UnityEngine.LightmapSettings",
+            "UnityEngine.EventSystems.IPointerEnterHandler",
+            "UnityEngine.EventSystems.IPointerExitHandler",
+            "UnityEngine.EventSystems.IPointerDownHandler",
+            "UnityEngine.EventSystems.IPointerUpHandler",
+            "UnityEngine.EventSystems.IPointerClickHandler",
+            "UnityEngine.EventSystems.IScrollHandler",
+            "UnityEngine.EventSystems.IBeginDragHandler",
+            "UnityEngine.EventSystems.IDragHandler",
+            "UnityEngine.EventSystems.IEndDragHandler",
+            "UnityEngine.RigidbodyConstraints2D",
+            "UnityEngine.RigidbodyType2D",
+            "UnityEngine.Collision2D",
+            "UnityEngine.Rendering.CompareFunction",
+            "Luna.Unity.DTO.UnityEngine.Assets.Shader+ShaderParameterType",
+            "UnityEngine.Rendering.CullMode",
+            "UnityEngine.Rendering.BlendMode",
+            "UnityEngine.Rendering.BlendOp",
+            "UnityEngine.TextAsset",
+            "UnityEngine.Rendering.StencilOp",
+            "TMPro._HorizontalAlignmentOptions",
+            "TMPro.TagUnits"
+        ],
+        "stubberData": {
+            "SDKName": "",
+            "Namespace": "",
+            "className": "",
+            "generateInternals": false
+        },
+        "playerPrefs": true
+    },
+    "assets": {
+        "rules": {
+            "texture": {
+                "default": {
+                    "maxWidth": 2048,
+                    "maxHeight": 2048,
+                    "format": "default",
+                    "compression": "none",
+                    "quality": 80,
+                    "script": "",
+                    "ext": ""
+                },
+                "overrides": []
+            },
+            "sound": {
+                "default": {
+                    "channels": 0,
+                    "bitrate": 0,
+                    "script": "",
+                    "ext": ""
+                },
+                "overrides": []
+            },
+            "font": {
+                "default": {
+                    "data": {
+                        "alphabet": " §1234567890-=qwertyuiop[]asdfghjkl;'\\`zxcvbnm,./±!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:\"|~ZXCVBNM<>?",
+                        "size": 128
+                    }
+                },
+                "overrides": []
+            },
+            "shader": {
+                "default": {
+                    "data": {
+                        "programs": [],
+                        "passes": [],
+                        "vp": [],
+                        "fp": []
+                    }
+                },
+                "overrides": []
+            },
+            "meshes": {
+                "default": {
+                    "halfPrecision": false
+                },
+                "overrides": []
+            },
+            "animations": {
+                "default": {
+                    "halfPrecision": false
+                },
+                "overrides": []
+            }
+        }
+    }
+}
